@@ -24,12 +24,12 @@
         "$mainMod SHIFT, PRINT, exec, hyprshot -m region --clipboard-only"
 
         # Volume
-        ", f8, exec, ~/.config/hypr/scripts/volume/up.sh"
-        ", f7, exec, ~/.config/hypr/scripts/volume/down.sh"
-        ", f6, exec, ~/.config/hypr/scripts/volume/mute.sh"
+        ", f8, exec, /etc/nixos/home-manager/hypr/scripts/volume/up.sh"
+        ", f7, exec, /etc/nixos/home-manager/hypr/scripts/volume/down.sh"
+        ", f6, exec, /etc/nixos/home-manager/hypr/scripts/volume/mute.sh"
 
         # Date
-        "$mainMod, D, exec, ~/.config/hypr/scripts/date.sh"
+        "$mainMod, D, exec, /etc/nixos/home-manager/hypr/scripts/date.sh"
 
         # Move focus with mainMod + arrow keys
         "$mainMod, left, movefocus, l"

@@ -1,6 +1,6 @@
 {
   imports = [
-    ./hyprland
+    ./hypr
     ./bash.nix
     ./dunst.nix
     ./git.nix
