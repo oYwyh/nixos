@@ -23,6 +23,14 @@
         # Screenshot a region
         "$mainMod SHIFT, PRINT, exec, hyprshot -m region --clipboard-only"
 
+        # Volume
+        ", f8, exec, ~/.config/hypr/scripts/volume/up.sh"
+        ", f7, exec, ~/.config/hypr/scripts/volume/down.sh"
+        ", f6, exec, ~/.config/hypr/scripts/volume/mute.sh"
+
+        # Date
+        "$mainMod, D, exec, ~/.config/hypr/scripts/date.sh"
+
         # Move focus with mainMod + arrow keys
         "$mainMod, left, movefocus, l"
         "$mainMod, right, movefocus, r"
