@@ -28,6 +28,7 @@
         hyprpaper
         hyprshot
         cliphist
+        wl-clipboard
         
         home-manager
 
