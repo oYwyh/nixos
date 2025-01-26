@@ -6,7 +6,6 @@
         lshw
         firefox
         vscode
-        git
         brightnessctl
         rofi-wayland
         rofi-screenshot
