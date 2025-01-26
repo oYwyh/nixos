@@ -10,7 +10,7 @@
 
   nixpkgs.config.allowUnfree = true;
 
-  environment.systemPackages = [ pkgs.home-manager pkgs.firefox pkgs.kitty pkgs.vscode ];
+  environment.systemPackages = [ pkgs.home-manager ];
 
   system.stateVersion = "24.11";
 }
