@@ -13,7 +13,7 @@
         "$mainMod SHIFT, F, fullscreen,1"
 
         "$mainMod CTRL, C, exec, hyprpicker -a"
-        "$mainMod, V, exec, cliphist list | fuzzel --dmenu | cliphist decode | wl-copy"
+        "$mainMod, V, exec, cliphist list | $menu | cliphist decode | wl-copy"
 
 
         # Screenshot a window
