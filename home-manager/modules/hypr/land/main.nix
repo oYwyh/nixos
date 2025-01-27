@@ -21,12 +21,11 @@
 
         exec-once = [
             "hypridle"
-            "dunst"
             "systemctl --user start hyprpolkitagent"
             "wl-paste --type text --watch cliphist store" # Stores only text data
             "wl-paste --type image --watch cliphist store" # Stores only image data
         ];
-
+        
         general = {
             gaps_in = 5;
             gaps_out = 5;

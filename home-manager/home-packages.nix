@@ -9,7 +9,7 @@
         brightnessctl
         rofi-wayland
         rofi-screenshot
-        dunst
+        mako
         pavucontrol
 	    brave
         anki

@@ -1,21 +1,18 @@
 #!/bin/bash
-# Script: volume_up.sh
+# Script: up.sh
 
 # Get the current volume as a numeric value
 volume=$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | awk '{print $2}')
 maxAudio=1.50
 
-# Define a unique notification ID for volume updates
-notification_id="volume_notification"
-
 # Clear only the volume notification
-dunstctl close "$notification_id"
+makoctl dismiss -a
 
 # Ensure audio is unmuted
 wpctl set-mute @DEFAULT_AUDIO_SINK@ 0
 
 # Update volume and notify
-if (( $(echo "$volume >= $maxAudio" | bc -l) )); then
+if [[ $(echo "$volume $maxAudio" | awk '{if ($1 >= $2) print 1; else print 0}') -eq 1 ]]; then
     wpctl set-volume @DEFAULT_AUDIO_SINK@ 150%
 else
     wpctl set-volume @DEFAULT_AUDIO_SINK@ 10%+

@@ -1,11 +1,8 @@
 #!/bin/bash
 # Script: volume_down.sh
 
-# Define a unique notification ID for volume updates
-notification_id="volume_notification"
-
 # Clear only the volume notification
-dunstctl close "$notification_id"
+makoctl dismiss -a
 
 # Update volume and notify
 wpctl set-volume @DEFAULT_AUDIO_SINK@ 10%-

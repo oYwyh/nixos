@@ -23,13 +23,19 @@
         # Screenshot a region
         "$mainMod SHIFT, PRINT, exec, hyprshot -m region --clipboard-only"
 
+
+        # Brightness
+        ",f3,exec, bash /etc/nixos/home-manager/modules/hypr/scripts/brightness/up.sh"
+        ",f2,exec, bash /etc/nixos/home-manager/modules/hypr/scripts/brightness/down.sh"
+
+
         # Volume
-        ", f8, exec, /etc/nixos/home-manager/modules/hypr/scripts/volume/up.sh"
-        ", f7, exec, /etc/nixos/home-manager/modules/hypr/scripts/volume/down.sh"
-        ", f6, exec, /etc/nixos/home-manager/modules/hypr/scripts/volume/mute.sh"
+        ", f8, exec, bash /etc/nixos/home-manager/modules/hypr/scripts/volume/up.sh"
+        ", f7, exec, bash /etc/nixos/home-manager/modules/hypr/scripts/volume/down.sh"
+        ", f6, exec, bash /etc/nixos/home-manager/modules/hypr/scripts/volume/mute.sh"
 
         # Date
-        "$mainMod, D, exec, /etc/nixos/home-manager/modules/hypr/scripts/date.sh"
+        "$mainMod, D, exec, bash /etc/nixos/home-manager/modules/hypr/scripts/date.sh"
 
         # Move focus with mainMod + arrow keys
         "$mainMod, left, movefocus, l"

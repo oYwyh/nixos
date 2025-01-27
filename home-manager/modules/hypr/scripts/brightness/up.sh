@@ -1,9 +1,6 @@
 #!/bin/bash
 # Script: up.sh
 
-# Define a unique notification ID for brightness updates
-notification_id="brightness_notification"
-
 # Increase brightness by 10%
 brightnessctl set 10%+
 
@@ -17,7 +14,7 @@ max_brightness=$(brightnessctl max)
 brightness_percentage=$(( 100 * brightness / max_brightness ))
 
 # Clear any existing brightness notifications
-dunstctl close "$notification_id"
+makoctl dismiss -a
 
 # Send a new notification with the current brightness value
-notify-send -h string:x-dunst-stack-tag:brightness_notif "Brightness Level" "Brightness: ${brightness_percentage}%"
+notify-send -h string:x-mako-stack-tag:brightness_notif "Brightness Level" "Brightness: ${brightness_percentage}%"
