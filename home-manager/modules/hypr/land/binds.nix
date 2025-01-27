@@ -26,7 +26,7 @@
 
         # Brightness
         ",f3,exec, bash /etc/nixos/home-manager/modules/hypr/scripts/brightness/up.sh"
-        ",f2,exec, bash /etc/nixos/home-manager/modules/hypr/scripts/brightness/down.sh"
+        # ",f2,exec, bash /etc/nixos/home-manager/modules/hypr/scripts/brightness/down.sh"
 
 
         # Volume

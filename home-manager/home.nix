@@ -8,6 +8,6 @@
 	home = {
 		username = "ywyh";
 		homeDirectory = "/home/ywyh";
-		stateVersion = "unstable";
+		stateVersion = "24.11";
 	};
 }
