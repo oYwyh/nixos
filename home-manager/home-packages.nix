@@ -19,6 +19,7 @@
         qimgv
         papirus-icon-theme
         thunderbird
+        swww
 
         hyprpolkitagent
         hyprpicker
