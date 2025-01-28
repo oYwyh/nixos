@@ -20,6 +20,7 @@
         ];
 
         exec-once = [
+            "swww-daemon"
             "hypridle"
             "systemctl --user start hyprpolkitagent"
             "wl-paste --type text --watch cliphist store" # Stores only text data
