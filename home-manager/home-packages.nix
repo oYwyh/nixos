@@ -20,6 +20,9 @@
         papirus-icon-theme
         thunderbird
         swww
+        zed-editor
+        libreoffice-qt6
+        hunspell
 
         hyprpolkitagent
         hyprpicker
