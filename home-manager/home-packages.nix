@@ -11,7 +11,7 @@
         rofi-screenshot
         mako
         pavucontrol
-	    brave
+        brave
         anki
         vesktop
         nautilus
@@ -23,6 +23,7 @@
         zed-editor
         libreoffice-qt6
         hunspell
+        gamescope
 
         hyprpolkitagent
         hyprpicker
@@ -33,7 +34,7 @@
         hyprshot
         cliphist
         wl-clipboard
-        
+
         home-manager
 
         nodejs
