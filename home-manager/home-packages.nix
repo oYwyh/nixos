@@ -24,6 +24,7 @@
         libreoffice-qt6
         hunspell
         gamescope
+        mangohud
 
         hyprpolkitagent
         hyprpicker

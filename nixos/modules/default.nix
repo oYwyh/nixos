@@ -10,6 +10,5 @@
     ./i18n.nix
     ./fonts.nix
     ./docker.nix
-    ./opengl.nix
   ];
 }
