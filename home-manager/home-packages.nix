@@ -25,7 +25,13 @@
         hunspell
         gamescope
         mangohud
+        dolphin
+        btop
+        vlc
+        mpv
+    	lollypop
 
+        polkit
         hyprpolkitagent
         hyprpicker
         hypridle

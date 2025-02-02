@@ -8,7 +8,8 @@
 
         "$mainMod" = "SUPER";
         "$terminal" = "kitty";
-        "$fileManager" = "nautilus";
+        "$backupFileManager" = "nautilus";
+        "$fileManager" = "dolphin";
         "$menu" = "rofi -show drun -theme Monokai -icon-theme 'Papirus' -show-icons";
 
         env = [
@@ -20,6 +21,7 @@
         ];
 
         exec-once = [
+            "udiskie"
             "swww-daemon"
             "hypridle"
             "systemctl --user start hyprpolkitagent"

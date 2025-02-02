@@ -10,5 +10,7 @@
     ./i18n.nix
     ./fonts.nix
     ./docker.nix
+    ./steam.nix
+    ./automount.nix
   ];
 }
